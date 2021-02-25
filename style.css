@@ -1,0 +1,71 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+main{
+  background-color: crimson;
+}
+
+header, footer, main{
+  width: 100%;
+}
+
+.banner{
+  background-color: pink;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.gallery{
+  background-color:brown;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+main .menu-dx,
+main .articolo,
+main .menu-sx{
+  float:left;
+  margin-bottom: 20px;
+}
+
+.titolo-articolo{
+  background-color:blue;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.menu-sx{
+  width: 23%;
+  height: 300px;
+  background-color: blue;
+}
+
+.articolo{
+  width: 50%;
+  height: 300px;
+  background-color: blue;
+  margin: 0 2%;
+}
+
+.menu-dx{
+  width: 23%;
+  height: 300px;
+  background-color: blue;
+}
+
+.end-banner{
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  background-color: blueviolet;
+}
+
